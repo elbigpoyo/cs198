@@ -1,0 +1,54 @@
+body {
+    /* comment */
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    text-align: center;
+}
+
+.highlight {
+    color: beige;
+    background-color: brown;
+}
+
+#main-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3{
+    color: blue;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: green;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 20px 10px 20px gray;
+}
+
+.box:hover {
+    background-color: burlywood;
+    box-shadow: 20px 4px 20px blue;
+}
+
+.margin-padding-demo {
+    background-color: brown;
+    color: white;
+    border: 2px solid black;
+
+    padding: 20px;
+    margin: 100px;
+}
