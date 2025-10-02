@@ -1,0 +1,19 @@
+.static {
+    position: static;
+}
+
+.fixed {
+    position: fixed;
+    top: 10px;
+}
+
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+  border: 5px solid black;
+}
+.wrapper > div {
+  flex: 1 1 150px;
+}
